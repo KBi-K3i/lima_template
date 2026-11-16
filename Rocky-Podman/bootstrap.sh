@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # bootstrap.sh — Rocky 10 (aarch64) を Podman rootless + docker-compose に整える
 # 使い方(手動): VM に SSH 後、一般ユーザー(sudo可)で実行。次の 1 行でも可：
-#   curl -fsSL https://raw.githubusercontent.com/KBi-K3i/lima_template/main/bootstrap.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/KBi-K3i/lima_template/main/Rocky-Podman/bootstrap.sh | bash
 # ※ rocky-podman.yaml の provision は同じ内容をインラインで持つ（自己完結）。
 #   このファイルは、Lima 以外（UTM 等）で用意した VM に同じ構築を流用するための 1 枚。
 set -euo pipefail

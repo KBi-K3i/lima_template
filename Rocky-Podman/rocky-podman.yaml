@@ -1,5 +1,5 @@
 # rocky-podman.yaml — Rocky Linux 10 (aarch64) + Podman rootless + docker-compose
-# 使い方: limactl start --name=rocky-podman https://raw.githubusercontent.com/KBi-K3i/lima_template/main/rocky-podman.yaml
+# 使い方: limactl start --name=rocky-podman https://raw.githubusercontent.com/KBi-K3i/lima_template/main/Rocky-Podman/rocky-podman.yaml
 # （社内 GitLab 等で配る場合は、その raw URL に差し替える。詳細は README）
 
 vmType: vz                 # Apple Virtualization（macOS 13+）。QEMU で固めるなら vz → qemu（README の選び分け表）
